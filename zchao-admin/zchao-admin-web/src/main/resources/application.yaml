@@ -1,0 +1,50 @@
+spring:
+  # 定义读取的properties文件
+  profiles:
+    active: dev
+#   定义读取的properties文件,可以多个，逗号隔开
+#  profiles:
+#    include: dev,prod
+
+  # 数据源
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/springboottest?useUnicode=true&characterEncoding=UTF-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    tomcat:
+      max-active: 100 # 连接池最大使用连接数
+      initial-size: 10 # 初始化连接大小
+      max-wait: 60000 # 获取连接最大等待时间
+      min-idle: 3 # 连接池最小空闲
+      remove-abandoned: true # 自动清除无用连接
+      remove-abandoned-timeout: 180 # 清除无用连接的等待时间
+      connection-properties: clientEncoding = UTF-8 #  连接属性
+
+  mvc:
+
+    view:
+     prefix: /views/
+     suffix: .jsp
+#    static-path-pattern: /static/**
+#  resources:
+#    static-locations: /static/
+
+  thymeleaf:
+    cache: false
+    prefix: classpath:/templates/
+    suffix: .html
+    encoding: UTF-8
+    servlet:
+      content-type: text/html
+    mode: HTML
+
+mybatis:
+  mapper-locations: classpath:mapping/*.xml   # mapping文件路径
+  type-aliases-package: cn.clj.zchao.entity #别名
+  configuration:
+    map-underscore-to-camel-case: true # 驼峰
+
+#logging.level.你的包名.mybatis接口包=debug    执行SQL时，会在控制台打印SQL日志
+logging:
+  level: cn.clj.zchao.dao=debug

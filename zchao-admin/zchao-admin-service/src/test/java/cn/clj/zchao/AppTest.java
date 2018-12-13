@@ -1,5 +1,7 @@
 package cn.clj.zchao;
 
+import static org.junit.Assert.assertTrue;
+
 import org.junit.Test;
 
 /**
@@ -11,12 +13,8 @@ public class AppTest
      * Rigorous Test :-)
      */
     @Test
-    public void test1() {
-        t();
-
-
-    }
-    public void t(){
-        System.out.println("哈哈哈哈哈");
+    public void shouldAnswerWithTrue()
+    {
+        assertTrue( true );
     }
 }

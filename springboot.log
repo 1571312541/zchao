@@ -1,0 +1,145 @@
+2018-12-13 12:31:27.838  INFO 16124 --- [restartedMain] cn.clj.zchao.SpringbootdemoApplication2  : Starting SpringbootdemoApplication2 on DESKTOP-HB379LQ with PID 16124 (D:\code\zchao\zchao-admin\target\classes started by 22902 in D:\code\zchao)
+2018-12-13 12:31:27.845  INFO 16124 --- [restartedMain] cn.clj.zchao.SpringbootdemoApplication2  : The following profiles are active: dev
+2018-12-13 12:31:27.898  INFO 16124 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2018-12-13 12:31:27.899  INFO 16124 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2018-12-13 12:31:28.589  WARN 16124 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[cn.clj.zchao]' package. Please check your configuration.
+2018-12-13 12:31:29.395  INFO 16124 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-12-13 12:31:29.408  INFO 16124 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-12-13 12:31:29.408  INFO 16124 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-12-13 12:31:29.413  INFO 16124 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+2018-12-13 12:31:29.413  INFO 16124 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2018-12-13 12:31:29.414  INFO 16124 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2018-12-13 12:31:30.506  INFO 16124 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+2018-12-13 12:31:30.599  INFO 16124 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-12-13 12:31:30.599  INFO 16124 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2699 ms
+2018-12-13 12:31:30.619  INFO 16124 --- [restartedMain] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-12-13 12:31:30.623  INFO 16124 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-12-13 12:31:30.623  INFO 16124 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-12-13 12:31:30.623  INFO 16124 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2018-12-13 12:31:30.623  INFO 16124 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-12-13 12:31:30.815  INFO 16124 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-13 12:31:31.166  INFO 16124 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-12-13 12:31:31.228  INFO 16124 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-13 12:31:31.231  INFO 16124 --- [restartedMain] cn.clj.zchao.SpringbootdemoApplication2  : Started SpringbootdemoApplication2 in 3.907 seconds (JVM running for 5.388)
+2018-12-13 12:41:03.402  INFO 10548 --- [restartedMain] cn.clj.zchao.SpringbootdemoApplication2  : Starting SpringbootdemoApplication2 on DESKTOP-HB379LQ with PID 10548 (D:\code\zchao\zchao-admin\target\classes started by 22902 in D:\code\zchao)
+2018-12-13 12:41:03.404  INFO 10548 --- [restartedMain] cn.clj.zchao.SpringbootdemoApplication2  : The following profiles are active: dev
+2018-12-13 12:41:03.432  INFO 10548 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2018-12-13 12:41:03.432  INFO 10548 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2018-12-13 12:41:03.829  WARN 10548 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[cn.clj.zchao]' package. Please check your configuration.
+2018-12-13 12:41:04.274  INFO 10548 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-12-13 12:41:04.284  INFO 10548 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-12-13 12:41:04.284  INFO 10548 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-12-13 12:41:04.289  INFO 10548 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+2018-12-13 12:41:04.289  INFO 10548 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2018-12-13 12:41:04.289  INFO 10548 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2018-12-13 12:41:05.351  INFO 10548 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+2018-12-13 12:41:05.428  INFO 10548 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-12-13 12:41:05.428  INFO 10548 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1996 ms
+2018-12-13 12:41:05.445  INFO 10548 --- [restartedMain] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-12-13 12:41:05.448  INFO 10548 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-12-13 12:41:05.448  INFO 10548 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-12-13 12:41:05.448  INFO 10548 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2018-12-13 12:41:05.449  INFO 10548 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-12-13 12:41:05.562  INFO 10548 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-13 12:41:05.803  INFO 10548 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-12-13 12:41:05.839  INFO 10548 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-13 12:41:05.841  INFO 10548 --- [restartedMain] cn.clj.zchao.SpringbootdemoApplication2  : Started SpringbootdemoApplication2 in 2.756 seconds (JVM running for 3.723)
+2018-12-13 13:06:42.809  INFO 21456 --- [restartedMain] cn.clj.zchao.SpringbootdemoApplication2  : Starting SpringbootdemoApplication2 on DESKTOP-HB379LQ with PID 21456 (D:\code\zchao\zchao-admin\target\classes started by 22902 in D:\code\zchao)
+2018-12-13 13:06:42.812  INFO 21456 --- [restartedMain] cn.clj.zchao.SpringbootdemoApplication2  : The following profiles are active: dev
+2018-12-13 13:06:42.880  INFO 21456 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2018-12-13 13:06:42.880  INFO 21456 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2018-12-13 13:06:43.385  WARN 21456 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[cn.clj.zchao]' package. Please check your configuration.
+2018-12-13 13:06:43.880  INFO 21456 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-12-13 13:06:43.890  INFO 21456 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-12-13 13:06:43.890  INFO 21456 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-12-13 13:06:43.895  INFO 21456 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+2018-12-13 13:06:43.895  INFO 21456 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2018-12-13 13:06:43.895  INFO 21456 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2018-12-13 13:06:44.968  INFO 21456 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+2018-12-13 13:06:45.048  INFO 21456 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-12-13 13:06:45.048  INFO 21456 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2167 ms
+2018-12-13 13:06:45.065  INFO 21456 --- [restartedMain] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-12-13 13:06:45.069  INFO 21456 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-12-13 13:06:45.069  INFO 21456 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-12-13 13:06:45.069  INFO 21456 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2018-12-13 13:06:45.069  INFO 21456 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-12-13 13:06:45.180  INFO 21456 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-13 13:06:45.440  INFO 21456 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-12-13 13:06:45.475  INFO 21456 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-13 13:06:45.478  INFO 21456 --- [restartedMain] cn.clj.zchao.SpringbootdemoApplication2  : Started SpringbootdemoApplication2 in 3.127 seconds (JVM running for 4.185)
+2018-12-13 13:12:55.652  INFO 19408 --- [restartedMain] cn.clj.zchao.SpringbootdemoApplication2  : Starting SpringbootdemoApplication2 on DESKTOP-HB379LQ with PID 19408 (D:\code\zchao\zchao-admin\target\classes started by 22902 in D:\code\zchao)
+2018-12-13 13:12:55.655  INFO 19408 --- [restartedMain] cn.clj.zchao.SpringbootdemoApplication2  : The following profiles are active: dev
+2018-12-13 13:12:55.690  INFO 19408 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2018-12-13 13:12:55.690  INFO 19408 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2018-12-13 13:12:56.111  WARN 19408 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[cn.clj.zchao]' package. Please check your configuration.
+2018-12-13 13:12:56.569  INFO 19408 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-12-13 13:12:56.579  INFO 19408 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-12-13 13:12:56.579  INFO 19408 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-12-13 13:12:56.584  INFO 19408 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+2018-12-13 13:12:56.584  INFO 19408 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2018-12-13 13:12:56.584  INFO 19408 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2018-12-13 13:12:57.641  INFO 19408 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+2018-12-13 13:12:57.719  INFO 19408 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-12-13 13:12:57.719  INFO 19408 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2029 ms
+2018-12-13 13:12:57.736  INFO 19408 --- [restartedMain] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-12-13 13:12:57.739  INFO 19408 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-12-13 13:12:57.739  INFO 19408 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-12-13 13:12:57.739  INFO 19408 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2018-12-13 13:12:57.740  INFO 19408 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-12-13 13:12:57.852  INFO 19408 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-13 13:12:58.107  INFO 19408 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-12-13 13:12:58.143  INFO 19408 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-13 13:12:58.145  INFO 19408 --- [restartedMain] cn.clj.zchao.SpringbootdemoApplication2  : Started SpringbootdemoApplication2 in 2.822 seconds (JVM running for 3.802)
+2018-12-13 13:13:08.165  INFO 19408 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-13 13:13:08.165  INFO 19408 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2018-12-13 13:13:08.170  INFO 19408 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2018-12-13 13:22:46.739  INFO 14988 --- [restartedMain] cn.clj.zchao.SpringbootdemoApplication2  : Starting SpringbootdemoApplication2 on DESKTOP-HB379LQ with PID 14988 (D:\code\zchao\zchao-admin\target\classes started by 22902 in D:\code\zchao)
+2018-12-13 13:22:46.741  INFO 14988 --- [restartedMain] cn.clj.zchao.SpringbootdemoApplication2  : The following profiles are active: dev
+2018-12-13 13:22:46.775  INFO 14988 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2018-12-13 13:22:46.775  INFO 14988 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2018-12-13 13:22:47.238  WARN 14988 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[cn.clj.zchao]' package. Please check your configuration.
+2018-12-13 13:22:47.704  INFO 14988 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-12-13 13:22:47.714  INFO 14988 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-12-13 13:22:47.714  INFO 14988 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-12-13 13:22:47.719  INFO 14988 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+2018-12-13 13:22:47.719  INFO 14988 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2018-12-13 13:22:47.719  INFO 14988 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2018-12-13 13:22:48.783  INFO 14988 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+2018-12-13 13:22:48.863  INFO 14988 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-12-13 13:22:48.863  INFO 14988 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2088 ms
+2018-12-13 13:22:48.878  INFO 14988 --- [restartedMain] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-12-13 13:22:48.881  INFO 14988 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-12-13 13:22:48.881  INFO 14988 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-12-13 13:22:48.882  INFO 14988 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2018-12-13 13:22:48.882  INFO 14988 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-12-13 13:22:49.005  INFO 14988 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-13 13:22:49.285  INFO 14988 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-12-13 13:22:49.321  INFO 14988 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-13 13:22:49.323  INFO 14988 --- [restartedMain] cn.clj.zchao.SpringbootdemoApplication2  : Started SpringbootdemoApplication2 in 2.912 seconds (JVM running for 3.832)
+2018-12-13 13:22:58.323  INFO 14988 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-13 13:22:58.323  INFO 14988 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2018-12-13 13:22:58.327  INFO 14988 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2018-12-13 13:48:35.180  INFO 14988 --- [Thread-12] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-13 13:52:55.202  INFO 16832 --- [restartedMain] cn.clj.zchao.SpringbootdemoApplication2  : Starting SpringbootdemoApplication2 on DESKTOP-HB379LQ with PID 16832 (D:\code\zchao\zchao-admin\zchao-admin-web\target\classes started by 22902 in D:\code\zchao)
+2018-12-13 13:52:55.206  INFO 16832 --- [restartedMain] cn.clj.zchao.SpringbootdemoApplication2  : The following profiles are active: dev
+2018-12-13 13:52:55.248  INFO 16832 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2018-12-13 13:52:55.248  INFO 16832 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2018-12-13 13:52:55.834  WARN 16832 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[cn.clj.zchao]' package. Please check your configuration.
+2018-12-13 13:52:56.282  INFO 16832 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-12-13 13:52:56.292  INFO 16832 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-12-13 13:52:56.293  INFO 16832 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-12-13 13:52:56.297  INFO 16832 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+2018-12-13 13:52:56.298  INFO 16832 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2018-12-13 13:52:56.298  INFO 16832 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2018-12-13 13:52:57.363  INFO 16832 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+2018-12-13 13:52:57.446  INFO 16832 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-12-13 13:52:57.446  INFO 16832 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2198 ms
+2018-12-13 13:52:57.464  INFO 16832 --- [restartedMain] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-12-13 13:52:57.467  INFO 16832 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-12-13 13:52:57.467  INFO 16832 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-12-13 13:52:57.467  INFO 16832 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2018-12-13 13:52:57.467  INFO 16832 --- [restartedMain] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-12-13 13:52:57.582  INFO 16832 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-13 13:52:57.834  INFO 16832 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-12-13 13:52:57.871  INFO 16832 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-13 13:52:57.873  INFO 16832 --- [restartedMain] cn.clj.zchao.SpringbootdemoApplication2  : Started SpringbootdemoApplication2 in 3.106 seconds (JVM running for 4.616)
