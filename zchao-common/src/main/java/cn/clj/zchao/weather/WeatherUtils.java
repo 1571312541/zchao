@@ -3,10 +3,12 @@ package cn.clj.zchao.weather;
 import net.sf.json.JSONArray;
 import net.sf.json.JSONObject;
 
-import java.io.*;
-import java.net.MalformedURLException;
+import java.io.BufferedReader;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.net.URL;
 import java.net.URLConnection;
+import java.nio.charset.StandardCharsets;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.zip.GZIPInputStream;
@@ -14,45 +16,40 @@ import java.util.zip.GZIPInputStream;
 /**
  * 〈通过get请求向网站http://wthrcdn.etouch.cn/weather_mini获取某个 城市的天气状况数据，数据格式是Json〉
  *
- * @author 22902
- * @create 2018/12/17
+ * @author zc
+ * @date 2018/12/17
  */
 public class WeatherUtils {
+
+    private final static String FENGLI_PATTERN = ".*<!\\[CDATA\\[(.*)]]>.*";
+
     /**
      * 通过城市名称获取该城市的天气信息
      *
      * @param cityName 城市名
-     * @return
+     * @return String
      */
-
-    public static String GetWeatherData(String cityName) {
-        StringBuilder sb=new StringBuilder();;
+    private static String getWeatherData(String cityName) {
+        StringBuilder sb=new StringBuilder();
         try {
-            String weather_url = "http://wthrcdn.etouch.cn/weather_mini?city="+cityName;
+            String weatherUrl = "http://wthrcdn.etouch.cn/weather_mini?city="+cityName;
 
-            URL url = new URL(weather_url);
+            URL url = new URL(weatherUrl);
             URLConnection conn = url.openConnection();
             InputStream is = conn.getInputStream();
             GZIPInputStream gzin = new GZIPInputStream(is);
             // 设置读取流的编码格式，自定义编码
-            InputStreamReader isr = new InputStreamReader(gzin, "utf-8");
+            InputStreamReader isr = new InputStreamReader(gzin, StandardCharsets.UTF_8);
             BufferedReader reader = new BufferedReader(isr);
-            String line = null;
+            String line;
             while((line=reader.readLine())!=null){
                 sb.append(line+" ");
             }
             reader.close();
-
-        } catch (UnsupportedEncodingException e) {
-            e.printStackTrace();
-        } catch (MalformedURLException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
-//        System.out.println(sb.toString());
         return sb.toString();
-
     }
 
 
@@ -61,9 +58,9 @@ public class WeatherUtils {
      * @param cityName 城市名
      * @return WeatherInfo
      */
-    private static WeatherInfo GetWeather(String cityName){
+    public static WeatherInfo GetWeather(String cityName){
 
-        String weatherInfobyJson = WeatherUtils.GetWeatherData(cityName);
+        String weatherInfobyJson = WeatherUtils.getWeatherData(cityName);
 
         JSONObject dataOfJson = JSONObject.fromObject(weatherInfobyJson);
         if(dataOfJson.getInt("status")!=1000){
@@ -95,18 +92,23 @@ public class WeatherUtils {
         return weatherInfo;
     }
 
+    /**
+     *  格式化风力
+     * @param date ,
+     * @return String
+     */
     private static String formatFengli(String date){
-        Pattern p = Pattern.compile(".*<!\\[CDATA\\[(.*)\\]\\]>.*");
+        Pattern p = Pattern.compile(FENGLI_PATTERN);
         Matcher m = p.matcher(date);
         String group ="";
         if(m.matches()) {
             group= m.group(1);
         }
         return group;
-
     }
+
     public static void main(String[] args){
         WeatherInfo weatherinfo = WeatherUtils.GetWeather("通州");
-        System.out.println(weatherinfo.toString());
+        System.out.println(weatherinfo);
     }
 }
