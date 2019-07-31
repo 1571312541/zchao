@@ -33,51 +33,48 @@ public class WeatherInfo {
      */
     private String type;
 
-    public WeatherInfo() {
-    }
-
     public String getDate() {
-        return this.date;
-    }
-
-    public String getTemperature() {
-        return this.temperature;
-    }
-
-    public String getCityname() {
-        return this.cityname;
-    }
-
-    public String getFengli() {
-        return this.fengli;
-    }
-
-    public String getFengxiang() {
-        return this.fengxiang;
-    }
-
-    public String getType() {
-        return this.type;
+        return date;
     }
 
     public void setDate(String date) {
         this.date = date;
     }
 
+    public String getTemperature() {
+        return temperature;
+    }
+
     public void setTemperature(String temperature) {
         this.temperature = temperature;
+    }
+
+    public String getCityname() {
+        return cityname;
     }
 
     public void setCityname(String cityname) {
         this.cityname = cityname;
     }
 
+    public String getFengli() {
+        return fengli;
+    }
+
     public void setFengli(String fengli) {
         this.fengli = fengli;
     }
 
+    public String getFengxiang() {
+        return fengxiang;
+    }
+
     public void setFengxiang(String fengxiang) {
         this.fengxiang = fengxiang;
+    }
+
+    public String getType() {
+        return type;
     }
 
     public void setType(String type) {
@@ -86,6 +83,13 @@ public class WeatherInfo {
 
     @Override
     public String toString() {
-        return "WeatherInfo(date=" + this.date + ", temperature=" + this.temperature + ", cityname=" + this.cityname + ", fengli=" + this.fengli + ", fengxiang=" + this.fengxiang + ", type=" + this.type + ")";
+        return "WeatherInfo{" +
+                "date='" + date + '\'' +
+                ", temperature='" + temperature + '\'' +
+                ", cityname='" + cityname + '\'' +
+                ", fengli='" + fengli + '\'' +
+                ", fengxiang='" + fengxiang + '\'' +
+                ", type='" + type + '\'' +
+                '}';
     }
 }
